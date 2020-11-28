@@ -1,0 +1,17 @@
+/*aqui van los estilos generales de la pagina*/
+
+@font-face{
+    font-family: 'Nunito-Bold';
+    src: url('./font/Nunito-Bold.e9f28aa33837.otf');    
+}
+
+
+
+
+body{
+    font-family: 'Nunito-Bold';
+    background-color:  #F4F4F7;
+    
+        
+}
+

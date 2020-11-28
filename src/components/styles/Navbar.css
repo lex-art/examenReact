@@ -1,0 +1,81 @@
+@font-face{
+  font-family: 'Gilroy-Bold' ;
+  src: url('/src/font/Gilroy-Bold.01bee9655bf4.otf');
+}
+@font-face{
+  font-family: 'Gilroy-Regular' ;
+  src: url('/src/font/Gilroy-Regular.1e09f38cc59a.otf');
+}
+
+.Navbar { 
+  width: 100%;
+  padding: 1rem 0;
+  height: 100%;
+  background-color: transparent;   
+}
+
+.Navbar-logo{
+  font-family: 'Gilroy-Bold';
+  font-size: 1.8rem;
+  color: white;
+}
+
+.img {
+  min-height: 19rem;
+  background-color: transparent;  
+  background: url('/src/images/pack-blackdays.jpg')no-repeat center ;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 5px #999;
+}
+
+.Navbar-option a{
+  background-color: transparent; 
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Navbar-button {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.Navbar-border{
+  border: 2px solid white;
+  padding-left: 10px;
+  padding-right: 3rem;
+}
+
+.contenido-nav{
+  padding: 0.5rem;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;    
+  overflow: hidden;
+  color: white;
+}
+
+.caja-reloj{
+  background-color: #00ccd4; 
+  padding: 0.5rem;
+  overflow: hidden;
+  width: 19rem;
+  margin: auto;
+}
+.caja-reloj-contenedor{
+  padding-left: 3rem ;
+  padding-right: 3rem;
+}
+.caja-reloj p{
+  font-family: 'Gilroy-Regular' ;
+  margin: 0%;  
+  padding-left: 1rem;
+}
+.caja-reloj h2{
+  margin: 0%;
+}

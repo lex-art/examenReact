@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'Nunito-Regular';
+    src: url('/src/font/Nunito-Regular.27df4ace8357.otf');
+  }
+.fuente{
+    font-family: 'Nunito-Regular';
+}
+.Filtrar{
+    width: 100%;
+    
+    padding: 1rem;
+    background-color: transparent;  
+}
+.Filtrar-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.Button-filter a{    
+    background-color: transparent;
+    color: black;   
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.Button-filter-2 a{
+    background-color: transparent;
+    color: #00ccd4;   
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right:auto;
+}
+.input-search{
+    background: inherit;
+    background-color:transparent;
+    margin-left:1rem;
+    margin-right:auto;
+    border-color: transparent;
+    outline: none;
+}
